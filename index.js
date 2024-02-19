@@ -1,11 +1,34 @@
-const express = require('express')
-const app = express()
-const port = 3000
+const express = require("express");
+const receitas = require("./receitas.json");
 
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-})
+// Rota para obter todas as receitas
+app.get("/", (req, res) => {
+  const todasReceitas = [
+    ...receitas.classic,
+    ...receitas.special,
+    ...receitas.gourmet,
+  ];
+  res.json(todasReceitas);
+});
+
+// Rota para obter todas as receitas Clássicas
+app.get("/classic", (req, res) => {
+  res.json(receitas.classic);
+});
+
+// Rota para obter todas as receitas Especiais
+app.get("/special", (req, res) => {
+  res.json(receitas.special);
+});
+
+// Rota para obter todas as receitas Gourmet
+app.get("/gourmet", (req, res) => {
+  res.json(receitas.gourmet);
+});
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodando na porta ${PORT}`);
+});

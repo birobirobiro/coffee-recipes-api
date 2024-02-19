@@ -1,0 +1,196 @@
+{
+  "classic": [
+    {
+      "nome": "Expresso",
+      "ingredientes": ["água", "pó de café"],
+      "instrucoes": "Use máquina de café expresso."
+    },
+    {
+      "nome": "Café Americano",
+      "ingredientes": ["água", "pó de café"],
+      "instrucoes": "Misture água quente com café expresso."
+    },
+    {
+      "nome": "Café Latte",
+      "ingredientes": ["leite vaporizado", "café expresso"],
+      "instrucoes": "Misture leite vaporizado com café expresso, finalizando com espuma de leite no topo."
+    },
+    {
+      "nome": "Cappuccino",
+      "ingredientes": [
+        "leite vaporizado",
+        "café expresso",
+        "espuma de leite",
+        "canela ou cacau em pó (opcional)"
+      ],
+      "instrucoes": "Prepare um expresso, adicione leite vaporizado e cubra com espuma de leite. Polvilhe canela ou cacau em pó para decorar."
+    },
+    {
+      "nome": "Mocha",
+      "ingredientes": [
+        "leite vaporizado",
+        "café expresso",
+        "calda de chocolate",
+        "chantilly (opcional)"
+      ],
+      "instrucoes": "Misture café expresso com calda de chocolate, adicione leite vaporizado e finalize com chantilly."
+    },
+    {
+      "nome": "Macchiato",
+      "ingredientes": ["café expresso", "espuma de leite"],
+      "instrucoes": "Prepare um expresso e adicione uma pequena quantidade de espuma de leite por cima."
+    },
+    {
+      "nome": "Café com Leite",
+      "ingredientes": ["leite vaporizado", "café coado ou expresso"],
+      "instrucoes": "Misture partes iguais de café coado ou expresso com leite vaporizado."
+    },
+    {
+      "nome": "Affogato",
+      "ingredientes": ["café expresso", "sorvete de creme ou baunilha"],
+      "instrucoes": "Despeje café expresso quente sobre uma bola de sorvete de creme ou baunilha."
+    },
+    {
+      "nome": "Flat White",
+      "ingredientes": ["leite vaporizado", "café expresso"],
+      "instrucoes": "Prepare um expresso e adicione leite vaporizado, visando uma proporção maior de café na mistura."
+    },
+    {
+      "nome": "Iced Coffee",
+      "ingredientes": [
+        "café coado ou expresso",
+        "gelo",
+        "leite ou creme (opcional)",
+        "adoçante (opcional)"
+      ],
+      "instrucoes": "Esfrie o café coado ou expresso e sirva sobre gelo. Adicione leite, creme ou adoçante a gosto."
+    }
+  ],
+  "special": [
+    {
+      "nome": "Café com Rum",
+      "ingredientes": ["café expresso", "rum"],
+      "instrucoes": "Prepare um café expresso e adicione uma dose de rum."
+    },
+    {
+      "nome": "Café Irlandês",
+      "ingredientes": [
+        "café expresso",
+        "whisky",
+        "chantilly",
+        "açúcar mascavo"
+      ],
+      "instrucoes": "Prepare um café expresso, adicione whisky e uma colher de açúcar mascavo. Cubra com chantilly."
+    },
+    {
+      "nome": "Café com Amaretto",
+      "ingredientes": ["café expresso", "amaretto"],
+      "instrucoes": "Prepare um café expresso e adicione uma dose de amaretto."
+    },
+    {
+      "nome": "Café Vienense",
+      "ingredientes": ["café expresso", "chantilly", "chocolate ralado"],
+      "instrucoes": "Prepare um café expresso e sirva com uma generosa porção de chantilly e chocolate ralado."
+    },
+    {
+      "nome": "Café Carolino",
+      "ingredientes": [
+        "café coado",
+        "água de flor de laranjeira",
+        "canela em pau"
+      ],
+      "instrucoes": "Prepare café coado e adicione água de flor de laranjeira e um pedaço de canela em pau."
+    },
+    {
+      "nome": "Café Marroquino",
+      "ingredientes": [
+        "café expresso",
+        "canela em pó",
+        "açúcar",
+        "raspas de limão"
+      ],
+      "instrucoes": "Prepare um café expresso e adicione canela em pó, açúcar e raspas de limão a gosto."
+    },
+    {
+      "nome": "Café Vienense de Chocolate",
+      "ingredientes": [
+        "café expresso",
+        "chocolate quente",
+        "chantilly",
+        "raspas de chocolate"
+      ],
+      "instrucoes": "Prepare um café expresso e adicione chocolate quente. Cubra com chantilly e raspas de chocolate."
+    },
+    {
+      "nome": "Café Indiano",
+      "ingredientes": ["café expresso", "leite condensado", "cardamomo"],
+      "instrucoes": "Prepare um café expresso e adicione leite condensado e uma pitada de cardamomo."
+    },
+    {
+      "nome": "Café Mexicano",
+      "ingredientes": ["café expresso", "tequila", "chantilly", "canela em pó"],
+      "instrucoes": "Prepare um café expresso, adicione uma dose de tequila e cubra com chantilly e canela em pó."
+    },
+    {
+      "nome": "Café Thai Gelado",
+      "ingredientes": ["café expresso", "leite de coco", "açúcar", "gelo"],
+      "instrucoes": "Prepare um café expresso e misture com leite de coco e açúcar a gosto. Sirva sobre gelo."
+    }
+  ],
+  "gourmet": [
+    {
+      "nome": "Café Havaiano",
+      "ingredientes": ["café expresso", "leite de coco", "xarope de macadâmia"],
+      "instrucoes": "Prepare um café expresso e misture com leite de coco e xarope de macadâmia a gosto."
+    },
+    {
+      "nome": "Café de Baunilha",
+      "ingredientes": ["café expresso", "extrato de baunilha", "chantilly"],
+      "instrucoes": "Prepare um café expresso e adicione algumas gotas de extrato de baunilha. Cubra com chantilly."
+    },
+    {
+      "nome": "Café de Avelã",
+      "ingredientes": ["café expresso", "xarope de avelã", "creme de leite"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de avelã. Adicione um pouco de creme de leite por cima."
+    },
+    {
+      "nome": "Café de Caramelo",
+      "ingredientes": [
+        "café expresso",
+        "xarope de caramelo",
+        "leite vaporizado"
+      ],
+      "instrucoes": "Prepare um café expresso e misture com xarope de caramelo. Adicione leite vaporizado a gosto."
+    },
+    {
+      "nome": "Café de Morango",
+      "ingredientes": ["café expresso", "xarope de morango", "creme de leite"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de morango. Adicione um pouco de creme de leite por cima."
+    },
+    {
+      "nome": "Café de Banana",
+      "ingredientes": ["café expresso", "xarope de banana", "chantilly"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de banana. Cubra com chantilly."
+    },
+    {
+      "nome": "Café de Coco",
+      "ingredientes": ["café expresso", "xarope de coco", "leite vaporizado"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de coco. Adicione leite vaporizado a gosto."
+    },
+    {
+      "nome": "Café de Menta",
+      "ingredientes": ["café expresso", "xarope de menta", "chantilly"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de menta. Cubra com chantilly."
+    },
+    {
+      "nome": "Café de Amora",
+      "ingredientes": ["café expresso", "xarope de amora", "creme de leite"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de amora. Adicione um pouco de creme de leite por cima."
+    },
+    {
+      "nome": "Café de Maçã",
+      "ingredientes": ["café expresso", "xarope de maçã", "chantilly"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de maçã. Cubra com chantilly."
+    }
+  ]
+}
