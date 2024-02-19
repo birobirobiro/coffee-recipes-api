@@ -64,6 +64,26 @@
         "adoçante (opcional)"
       ],
       "instrucoes": "Esfrie o café coado ou expresso e sirva sobre gelo. Adicione leite, creme ou adoçante a gosto."
+    },
+    {
+      "nome": "Ristretto",
+      "ingredientes": ["água", "pó de café"],
+      "instrucoes": "Extraia um shot curto de café expresso, usando menos água para uma bebida mais concentrada."
+    },
+    {
+      "nome": "Café Duplo",
+      "ingredientes": ["água", "pó de café"],
+      "instrucoes": "Extraia um shot duplo de café expresso, utilizando uma quantidade dupla de café para uma bebida mais forte."
+    },
+    {
+      "nome": "Café Cubano",
+      "ingredientes": ["café expresso", "açúcar mascavo"],
+      "instrucoes": "Prepare um café expresso e misture com açúcar mascavo antes de extrair, resultando em uma bebida doce e encorpada."
+    },
+    {
+      "nome": "Café Turco",
+      "ingredientes": ["água", "pó de café", "açúcar"],
+      "instrucoes": "Ferva água com pó de café e açúcar, sem filtrar, resultando em uma bebida forte e com resíduos de café moído no fundo da xícara."
     }
   ],
   "special": [
@@ -135,6 +155,16 @@
       "nome": "Café Thai Gelado",
       "ingredientes": ["café expresso", "leite de coco", "açúcar", "gelo"],
       "instrucoes": "Prepare um café expresso e misture com leite de coco e açúcar a gosto. Sirva sobre gelo."
+    },
+    {
+      "nome": "Café com Licor de Café",
+      "ingredientes": ["café expresso", "licor de café"],
+      "instrucoes": "Prepare um café expresso e adicione uma dose de licor de café, como Kahlúa."
+    },
+    {
+      "nome": "Café de Coco Torrado",
+      "ingredientes": ["café expresso", "xarope de coco torrado", "creme de leite"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de coco torrado. Adicione um pouco de creme de leite por cima."
     }
   ],
   "gourmet": [
@@ -191,6 +221,16 @@
       "nome": "Café de Maçã",
       "ingredientes": ["café expresso", "xarope de maçã", "chantilly"],
       "instrucoes": "Prepare um café expresso e misture com xarope de maçã. Cubra com chantilly."
+    },
+     {
+      "nome": "Café de Lavanda",
+      "ingredientes": ["café expresso", "xarope de lavanda", "chantilly"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de lavanda. Cubra com chantilly."
+    },
+    {
+      "nome": "Café de Pistache",
+      "ingredientes": ["café expresso", "xarope de pistache", "creme de leite"],
+      "instrucoes": "Prepare um café expresso e misture com xarope de pistache. Adicione um pouco de creme de leite por cima."
     }
   ]
 }
