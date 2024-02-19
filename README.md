@@ -14,25 +14,25 @@ Esta é uma API simples para obter receitas de diferentes categorias. Atualmente
 
 ## Exemplo de Uso
 
-### Obtendo todas as receitas
+### Obtendo [todas as receitas](https://coffee-recipes.onrender.com/)
 
 ```http
 GET /
 ```
 
-### Obtendo todas as receitas Clássicas
+### Obtendo todas as receitas [Clássicas](https://coffee-recipes.onrender.com/classic)
 
 ```http
 GET /classic
 ```
 
-### Obtendo todas as receitas Especiais
+### Obtendo todas as receitas [Especiais](https://coffee-recipes.onrender.com/special)
 
 ```http
 GET /special
 ```
 
-### Obtendo todas as receitas Gourmet
+### Obtendo todas as receitas [Gourmet](https://coffee-recipes.onrender.com/gourmet)
 
 ```http
 GET /gourmet
