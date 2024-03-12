@@ -29,6 +29,27 @@ app.get("/gourmet", (req, res) => {
   res.json(receitas.gourmet);
 });
 
+// Rota para buscar receita por nome
+app.get("/receita/:nome", (req, res) => {
+  const nome = req.params.nome.toLowerCase();
+  let receitaEncontrada = null;
+
+  // Procura a receita em cada categoria
+  Object.values(receitas).forEach(categoria => {
+    categoria.forEach(receita => {
+      if (receita.nome.toLowerCase() === nome) {
+        receitaEncontrada = receita;
+      }
+    });
+  });
+
+  if (receitaEncontrada) {
+    res.json(receitaEncontrada);
+  } else {
+    res.status(404).json({ mensagem: "Receita não encontrada" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
