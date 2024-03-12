@@ -6,6 +6,8 @@ Esta é uma API simples para obter receitas de diferentes categorias. Atualmente
 
 - **GET /:** Retorna todas as receitas disponíveis, combinando as receitas das categorias Clássico, Especial e Gourmet.
 
+- **GET /receita/:nome:** Retorna uma receita específica com o nome fornecido.
+
 - **GET /classic:** Retorna todas as receitas da categoria Clássico.
 
 - **GET /special:** Retorna todas as receitas da categoria Especial.
@@ -18,6 +20,12 @@ Esta é uma API simples para obter receitas de diferentes categorias. Atualmente
 
 ```http
 GET /
+```
+
+### Obtendo uma [receita específica](https://coffee-recipes.onrender.com/receita/expresso)
+
+```http
+GET /receita/nome-da-receita
 ```
 
 ### Obtendo todas as receitas [Clássicas](https://coffee-recipes.onrender.com/classic)
