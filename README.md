@@ -1,6 +1,6 @@
 # Receitas API
 
-Esta é uma API simples para obter receitas de diferentes categorias. Atualmente, a API oferece receitas nas categorias Clássico, Especial e Gourmet.
+Esta é uma API simples para obter receitas de café de diferentes categorias. Atualmente, a API oferece receitas nas categorias Clássico, Especial e Gourmet.
 
 ## Rotas Disponíveis
 
